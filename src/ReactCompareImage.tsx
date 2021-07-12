@@ -246,7 +246,7 @@ const ReactCompareImage: React.FC<IProps> = props => {
       boxSizing: 'border-box',
       position: 'relative',
       width: '100%',
-      height: `${containerHeight}px`,
+      height: '100%',
       overflow: 'hidden',
     },
     rightImage: {
